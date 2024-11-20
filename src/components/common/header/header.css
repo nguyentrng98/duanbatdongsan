@@ -1,0 +1,249 @@
+header {
+    background-color: #fff;
+    height: 10vh;
+    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+header img {
+    width: 170px;
+}
+
+header .logo {
+    position: relative;
+    top: -10px;
+}
+
+header a {
+    margin-left: 30px;
+    transition: 0.5s;
+    font-weight: 500;
+    position: relative;
+    top: -10px;
+}
+
+header a:hover {
+    color: #27ae60;
+}
+
+header span {
+    width: auto;
+    padding: 0px 6px;
+    background: #27AE60;
+    border-radius: 50px;
+    color: #ffffff;
+    margin-right: 4px;
+    font-weight: 400;
+}
+
+header h4 {
+    font-weight: 500;
+    margin-right: 20px;
+    position: relative;
+    top: -15px;
+}
+
+header .toggle {
+    display: none;
+}
+
+header .btn1 {
+    position: relative;
+    top: -10px;
+}
+
+.form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Nền mờ tối */
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    z-index: 999;
+  }
+
+  .form-container {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 400px; /* Đặt chiều rộng tối đa */
+    width: 100%; /* Đảm bảo form co dãn theo kích thước */
+    position: relative;
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Tạo khoảng cách giữa các field */
+  }
+  
+  input {
+    width: 100%; /* Đảm bảo input chiếm hết không gian */
+    padding: 10px; /* Khoảng cách trong input */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước */
+  }
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Form Heading */
+  .form-container h2 {
+    margin: 0 0 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Form Group */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Submit Button */
+  .btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .btn-submit:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+  #btn_regist {
+    margin-left: 30px;
+  }
+
+  /* Avatar style */
+/* Avatar style */
+.user-profile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px; /* Tăng khoảng cách giữa avatar và tên người dùng */
+}
+
+.hello-username {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px; /* Thêm khoảng cách nếu cần thiết */
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.dropdown-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu ul li:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0;
+    }
+
+    header img {
+        margin-top: 10px;
+    }
+
+    header .button {
+        display: none;
+    }
+
+    header .nav .flex {
+        display: none;
+    }
+
+    header .toggle {
+        display: block;
+        margin-top: 2px;
+    }
+
+    header .small {
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: #27ae60;
+        padding: 20px;
+    }
+
+    header li a {
+        display: inline-block;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+}

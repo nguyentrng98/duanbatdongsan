@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "id": "7588",
+      "email": "user1@gmail.com",
+      "password": "$2a$10$sOf37cUzhPDOgHkQt1C5veE0KNr1AddG6MMyDzCY0RRLJiMAtAh4q",
+      "username": "admin",
+      "avatar": "https://img.freepik.com/premium-vector/avatar-icon0002_750950-43.jpg"
+    },
+    {
+      "id": "b8da",
+      "email": "admin@gmail.com",
+      "password": "$2a$10$uA6RNs10F4TsvdfSYQY0q.Z.vGwKv5wqvz82zUr4uSasDaK6uqEAi",
+      "username": "ktnguyen",
+      "avatar": ""
+    },
+    {
+      "id": "441e",
+      "email": "admin@gmail.com",
+      "password": "$2a$10$iEs2AroVVLq.tRTmp7GVxuZfBAmZwTowYwYDvQGRTvjV8SdSFlchK"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "cover": "../images/list/p-1.jpg",
+      "name": "Red Carpet Real Estate",
+      "location": "Kupondol, Lalitpur",
+      "category": "For Rent",
+      "price": "Rs.37,000",
+      "type": "Apartment"
+    },
+    {
+      "id": "2",
+      "cover": "../images/list/p-2.jpg",
+      "name": "Red Flame Properties",
+      "location": "New Road, Kathmandu",
+      "category": "For Sale",
+      "price": "Rs.45,000",
+      "type": "Condos"
+    },
+    {
+      "id": "3",
+      "cover": "../images/list/p-7.jpg",
+      "name": "The Real Estate Corner",
+      "location": "Thamel, Kathmandu",
+      "category": "For Rent",
+      "price": "Rs.55,000",
+      "type": "Offices"
+    },
+    {
+      "id": "4",
+      "cover": "../images/list/p-4.jpg",
+      "name": "Blue Realty",
+      "location": "Pulchowk, Lalitpur",
+      "category": "For Sale",
+      "price": "Rs.57,000",
+      "type": "Homes & Villas"
+    },
+    {
+      "id": "5",
+      "cover": "../images/list/p-5.jpg",
+      "name": "Brick Lane Realty",
+      "location": "Birtamod, Jhapa",
+      "category": "For Rent",
+      "price": "Rs.15,000",
+      "type": "Commercial"
+    },
+    {
+      "id": "6",
+      "cover": "../images/list/p-6.jpg",
+      "name": "Banyon Tree Realty",
+      "location": "Gairidhara, Kathmandu",
+      "category": "For Sale",
+      "price": "Rs.25,000",
+      "type": "Apartment"
+    },
+    {
+      "id": "e2f5",
+      "name": "Create Example 1",
+      "location": "Paris",
+      "price": "1000$",
+      "description": "Description",
+      "category": "For Sale",
+      "type": "Homes & Villas",
+      "cover": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?cs=srgb&dl=pexels-expect-best-79873-323780.jpg&fm=jpg"
+    },
+    {
+      "id": "12b9",
+      "name": "Bất động sản A",
+      "location": "hà Nội",
+      "price": "1000000 VND",
+      "description": "",
+      "category": "For Sale",
+      "type": "Condos",
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9ft8cLJiUCcGQgYn0D9sjwYGIcPA-lKNUVA&s"
+    },
+    {
+      "id": "a9c0",
+      "name": "nhà đẹp",
+      "location": "hà nội",
+      "price": "5000$",
+      "description": "",
+      "category": "For Rent",
+      "type": "Homes & Villas",
+      "cover": "https://www.invert.vn/media/uploads/uploads/19154732-nha-ong-2-tang-3-phong-ngu-1.jpg"
+    }
+  ]
+}
